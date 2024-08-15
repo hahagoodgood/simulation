@@ -18,7 +18,7 @@
 			<Name><![CDATA[Main]]></Name>
 			<Import><![CDATA[import as_is_smart_fab.FOUP.statechart_state;
 import com.querydsl.core.BooleanBuilder;]]></Import>
-			<StartupCode><![CDATA[source.inject(25);]]></StartupCode>
+			<StartupCode><![CDATA[source.inject(70);]]></StartupCode>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1721190751017</Id>
@@ -7796,7 +7796,7 @@ storage.reserve(cell.row, cell.position, cell.level, true);]]></Body>
 //System.out.println("agent state:"+agent.statechart.getState().name());
 //agent.is_Second = true;
 //System.out.println("agent is" + agent.is_Second);
-System.out.println("agent state:"+agent.statechart.getState().name());
+//System.out.println("agent state:"+agent.statechart.getState().name());
 //System.out.println(agent.statechart.getState().name().equals("A_1st"));
 //int Ptime = 0;
 //System.out.println("!station1_1.isProcessing()&&move_to_Oxidation.size() < 1;: "+(!station1_1.isProcessing()&& move_to_Oxidation.size();
@@ -8712,13 +8712,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Oxidation_1st;
-		System.out.println("B_Oxidation_1st Ptiem: " + Ptime);
+		//System.out.println("B_Oxidation_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Oxidation_2nd;
-		System.out.println("B_Oxidation_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Oxidation_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -8874,13 +8874,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Oxidation_1st;
-		System.out.println("B_Oxidation_1st Ptiem: " + Ptime);
+		//System.out.println("B_Oxidation_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Oxidation_2nd;
-		System.out.println("B_Oxidation_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Oxidation_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -9142,13 +9142,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Oxidation_1st;
-		System.out.println("B_Oxidation_1st Ptiem: " + Ptime);
+		//System.out.println("B_Oxidation_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Oxidation_2nd;
-		System.out.println("B_Oxidation_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Oxidation_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -9299,7 +9299,7 @@ process_time1_2 = Ptime;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[System.out.println("Exposure condation1:"+((conveyor3_1.size() < 1) && (move_to_Exposure1.size() < 1)));
+								<Code><![CDATA[//System.out.println("Exposure condation1:"+((conveyor3_1.size() < 1) && (move_to_Exposure1.size() < 1)));
 //System.out.println("!station1_1.isProcessing()&&move_to_Oxidation.size() < 1;: "+(!station1_1.isProcessing()&& move_to_Oxidation.size();
 agent.to_go = 2;]]></Code>
 							</Value>
@@ -10590,13 +10590,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Exposure_1st;
-		System.out.println("B_Exposure_1st Ptiem: " + Ptime);
+		//System.out.println("B_Exposure_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Exposure_2nd;
-		System.out.println("B_Exposure_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Exposure_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -10752,13 +10752,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Exposure_1st;
-		System.out.println("B_Exposure_1st Ptiem: " + Ptime);
+		//System.out.println("B_Exposure_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Exposure_2nd;
-		System.out.println("B_Exposure_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Exposure_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -10930,13 +10930,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Exposure_1st;
-		System.out.println("B_Exposure_1st Ptiem: " + Ptime);
+		//System.out.println("B_Exposure_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Exposure_2nd;
-		System.out.println("B_Exposure_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Exposure_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -11087,7 +11087,7 @@ process_time2_2 = Ptime;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[System.out.println("Etching condation1:"+((conveyor3_1.size() < 1) && (move_to_Etching1.size() < 1)));
+								<Code><![CDATA[//System.out.println("Etching condation1:"+((conveyor3_1.size() < 1) && (move_to_Etching1.size() < 1)));
 //System.out.println("!station1_1.isProcessing()&&move_to_Oxidation.size() < 1;: "+(!station1_1.isProcessing()&& move_to_Oxidation.size();
 agent.to_go = 3;]]></Code>
 							</Value>
@@ -12378,13 +12378,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Etching_1st;
-		System.out.println("B_Etching_1st Ptiem: " + Ptime);
+		//System.out.println("B_Etching_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Etching_2nd;
-		System.out.println("B_Etching_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Etching_2nd Ptiem: " + Ptime);
 		break;	
 }
 process_time3_1 = Ptime;]]></Code>
@@ -12539,13 +12539,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Etching_1st;
-		System.out.println("B_Etching_1st Ptiem: " + Ptime);
+		//System.out.println("B_Etching_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Etching_2nd;
-		System.out.println("B_Etching_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Etching_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -12717,13 +12717,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Etching_1st;
-		System.out.println("B_Etching_1st Ptiem: " + Ptime);
+		//System.out.println("B_Etching_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Etching_2nd;
-		System.out.println("B_Etching_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Etching_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -13256,13 +13256,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Oxidation_1st;
-		System.out.println("B_Oxidation_1st Ptiem: " + Ptime);
+		//System.out.println("B_Oxidation_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Oxidation_2nd;
-		System.out.println("B_Oxidation_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Oxidation_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -13795,13 +13795,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Exposure_1st;
-		System.out.println("B_Exposure_1st Ptiem: " + Ptime);
+		//System.out.println("B_Exposure_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Exposure_2nd;
-		System.out.println("B_Exposure_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Exposure_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -14334,13 +14334,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Etching_1st;
-		System.out.println("B_Etching_1st Ptiem: " + Ptime);
+		//System.out.println("B_Etching_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Etching_2nd;
-		System.out.println("B_Etching_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Etching_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -14491,7 +14491,7 @@ process_time3_3 = Ptime;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[System.out.println("Evaporation condation1:"+((conveyor4_1.size() < 1) && (move_to_Evaporation1.size() < 1)));
+								<Code><![CDATA[//System.out.println("Evaporation condation1:"+((conveyor4_1.size() < 1) && (move_to_Evaporation1.size() < 1)));
 //System.out.println("!station1_1.isProcessing()&&move_to_Oxidation.size() < 1;: "+(!station1_1.isProcessing()&& move_to_Oxidation.size();
 agent.to_go = 4;]]></Code>
 							</Value>
@@ -15782,13 +15782,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Evaporation_1st;
-		System.out.println("B_Evaporation_1st Ptiem: " + Ptime);
+		//System.out.println("B_Evaporation_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Evaporation_2nd;
-		System.out.println("B_Evaporation_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Evaporation_2nd Ptiem: " + Ptime);
 		break;	
 }
 process_time4_1 = Ptime;]]></Code>
@@ -15943,13 +15943,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Evaporation_1st;
-		System.out.println("B_Evaporation_1st Ptiem: " + Ptime);
+		//System.out.println("B_Evaporation_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Evaporation_2nd;
-		System.out.println("B_Evaporation_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Evaporation_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -16121,13 +16121,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Evaporation_1st;
-		System.out.println("B_Evaporation_1st Ptiem: " + Ptime);
+		//System.out.println("B_Evaporation_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Evaporation_2nd;
-		System.out.println("B_Evaporation_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Evaporation_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -16660,13 +16660,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Evaporation_1st;
-		System.out.println("B_Evaporation_1st Ptiem: " + Ptime);
+		//System.out.println("B_Evaporation_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Evaporation_2nd;
-		System.out.println("B_Evaporation_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Evaporation_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -16817,7 +16817,7 @@ process_time4_3 =Ptime;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[System.out.println("Ism condation1:"+((conveyor5_1.size() < 1) && (move_to_Ism1.size() < 1)));
+								<Code><![CDATA[//System.out.println("Ism condation1:"+((conveyor5_1.size() < 1) && (move_to_Ism1.size() < 1)));
 //System.out.println("!station1_1.isProcessing()&&move_to_Oxidation.size() < 1;: "+(!station1_1.isProcessing()&& move_to_Oxidation.size();
 agent.to_go = 5;]]></Code>
 							</Value>
@@ -18108,13 +18108,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Ism_1st;
-		System.out.println("B_Ism_1st Ptiem: " + Ptime);
+		//System.out.println("B_Ism_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Ism_2nd;
-		System.out.println("B_Ism_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Ism_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -18270,13 +18270,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Ism_1st;
-		System.out.println("B_Ism_1st Ptiem: " + Ptime);
+		//System.out.println("B_Ism_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Ism_2nd;
-		System.out.println("B_Ism_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Ism_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -18448,13 +18448,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Ism_1st;
-		System.out.println("B_Ism_1st Ptiem: " + Ptime);
+		//System.out.println("B_Ism_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Ism_2nd;
-		System.out.println("B_Ism_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Ism_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -18987,13 +18987,13 @@ String crt_state = agent.statechart.getState().name();
 switch(crt_state){
 	case "A_1st":
 	case "A_2nd": Ptime = agent.A_process_time;
-		System.out.println("A_process_time Ptiem: " + Ptime);
+		//System.out.println("A_process_time Ptiem: " + Ptime);
 		break;
 	case "B_1st": Ptime = agent.B_Ism_1st;
-		System.out.println("B_Ism_1st Ptiem: " + Ptime);
+		//System.out.println("B_Ism_1st Ptiem: " + Ptime);
 		break;
 	case "B_2nd": Ptime = agent.B_Ism_2nd;
-		System.out.println("B_Ism_2nd Ptiem: " + Ptime);
+		//System.out.println("B_Ism_2nd Ptiem: " + Ptime);
 		break;	
 }
 
@@ -19415,7 +19415,7 @@ process_time4_3 = Ptime;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[int Available = 15-2/*35*/;
+								<Code><![CDATA[int Available = 65-2/*35*/;
 long Allocation = Safety_Check.outT.count()+1 - sink_A.in.count() - sink_B.in.count();
 is_safe_state = (Available - Allocation - 1) > 0; ]]></Code>
 							</Value>
@@ -20908,387 +20908,6 @@ is_safe_state = (Available - Allocation - 1) > 0; ]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1723566556177</Id>
-					<Name><![CDATA[move_to_stocker_A1]]></Name>
-					<X>665</X><Y>500</Y>
-					<Label><X>-60</X><Y>-25</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.material_handling]]></PackageName>
-						<ClassName><![CDATA[MoveByTransporter]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.material_handling]]></PackageName>
-							<ClassName><![CDATA[MoveByTransporter]]></ClassName>
-							<ItemName><![CDATA[1521106872908]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[destinationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationPath]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationPathOffsetFromBeginning]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationPathOffset]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationAttractor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationNode]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[Stocker_A]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationConveyor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationConveyorOffsetFromBeginning]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationConveyorOffset]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationPositionOnConveyor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationConveyorStation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[changeOrientation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[orientation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationX]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationY]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationZ]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationInNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationLevel]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeTransporter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[fleet]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[AGVs]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[loadingTime]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[0]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationPath]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationPathOffsetFromBeginning]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationPathOffset]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationAttractor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationNode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationConveyor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationConveyorOffsetFromBeginning]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationConveyorOffset]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[5]]></Code>
-								<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationPositionOnConveyor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationConveyorStation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationX]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationY]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationZ]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationInNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeDestinationLevel]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[priority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[taskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[taskPreemptionPolicy]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.PP_SEIZE_ANY_RESOURCE]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[customizeTransporterChoice]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[transporterChoiceCondition]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[dispatchingPolicy]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.DISPATCHING_POLICY_SHORTEST_PATH]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[transporterComparison]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[transporterRating]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledMovingPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationPath]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationPathOffsetFromBeginning]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationPathOffset]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationAttractor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationNode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationConveyor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationConveyorOffsetFromBeginning]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationConveyorOffset]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationPositionOnConveyor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationConveyorStation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationX]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationY]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationZ]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationInNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledDestinationLevel]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[canceledReturnPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseTransporter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[unloadingTime]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[0]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseMovingPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationPath]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationPathOffsetFromBeginning]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationPathOffset]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationAttractor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationNode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationConveyor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationConveyorOffsetFromBeginning]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationConveyorOffset]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationPositionOnConveyor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationConveyorStation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationX]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationY]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationZ]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationInNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseDestinationLevel]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[releaseReturnPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRemove]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onSeizeTransporter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onLoadingStarted]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onLoadingFinished]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskSuspended]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskResumed]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onReleaseTransporter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onUnloadingStarted]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onUnloadingFinished]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
 					<Id>1723566556280</Id>
 					<Name><![CDATA[sink_A1]]></Name>
 					<X>750</X><Y>450</Y>
@@ -22446,6 +22065,9 @@ is_safe_state = (Available - Allocation - 1) > 0; ]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[if(!Stockers.hasSpace()) System.out.println("stock에 자리없음 error");]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
@@ -28426,6 +28048,299 @@ is_safe_state = (Available - Allocation - 1) > 0; ]]></Code>
 					<QuantityColumn>
 					</QuantityColumn>
 				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1723729769296</Id>
+					<Name><![CDATA[delay_for_idel_oxi1]]></Name>
+					<X>2170</X><Y>890</Y>
+					<Label><X>-60</X><Y>-4</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Delay]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Delay]]></ClassName>
+							<ItemName><![CDATA[1412336242930]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[type]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[1]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[pushProtocol]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[forceStatisticsCollection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1723730592671</Id>
+					<Name><![CDATA[delay_for_idel_oxi2]]></Name>
+					<X>1830</X><Y>310</Y>
+					<Label><X>-60</X><Y>-4</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Delay]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Delay]]></ClassName>
+							<ItemName><![CDATA[1412336242930]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[type]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[1]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[pushProtocol]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[forceStatisticsCollection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1723731593175</Id>
+					<Name><![CDATA[selectOutput]]></Name>
+					<X>870</X><Y>370</Y>
+					<Label><X>-35</X><Y>-25</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[SelectOutput]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[SelectOutput]]></ClassName>
+							<ItemName><![CDATA[1412336242931]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[conditionIsProbabilistic]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[condition]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[probability]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Stockers.hasSpace();]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitTrue]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitFalse]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
 			</EmbeddedObjects>
 
 			<Presentation>
@@ -32928,7 +32843,7 @@ is_safe_state = (Available - Allocation - 1) > 0; ]]></Code>
 					<Rotation>180</Rotation>
 					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
 					<NumberOfCells>2</NumberOfCells>
-					<NumberOfDeepPositions>1</NumberOfDeepPositions>
+					<NumberOfDeepPositions>2</NumberOfDeepPositions>
 					<NumberOfLevels>10</NumberOfLevels>
 					<LevelHeight>1</LevelHeight>
 					<CellWidth>20</CellWidth>
@@ -32960,7 +32875,7 @@ is_safe_state = (Available - Allocation - 1) > 0; ]]></Code>
 					<Rotation>180</Rotation>
 					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
 					<NumberOfCells>2</NumberOfCells>
-					<NumberOfDeepPositions>1</NumberOfDeepPositions>
+					<NumberOfDeepPositions>2</NumberOfDeepPositions>
 					<NumberOfLevels>10</NumberOfLevels>
 					<LevelHeight>1</LevelHeight>
 					<CellWidth>20</CellWidth>
