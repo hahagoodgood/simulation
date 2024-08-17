@@ -54005,10 +54005,10 @@ process_time12_1 =Ptime;]]></Code>
 					<LimitNumberOfTransporters>false</LimitNumberOfTransporters>
 					<LimitNumberOfTransportersValue>2</LimitNumberOfTransportersValue>
 				</Path>
-  				<PalletRack TargetId="1723300125407">
+  				<PalletRack TargetId="1723299761484">
 					<Id>1723733677689</Id>
 					<Name><![CDATA[palletRack]]></Name>
-					<X>205</X><Y>280</Y>
+					<X>205</X><Y>190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -55270,10 +55270,10 @@ process_time12_1 =Ptime;]]></Code>
 					<LimitNumberOfTransporters>false</LimitNumberOfTransporters>
 					<LimitNumberOfTransportersValue>10</LimitNumberOfTransportersValue>
 				</Path>
-  				<PalletRack TargetId="1723300137571">
+  				<PalletRack TargetId="1723300236219">
 					<Id>1723733776367</Id>
 					<Name><![CDATA[palletRack1]]></Name>
-					<X>327</X><Y>262</Y>
+					<X>495</X><Y>260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -56455,7 +56455,7 @@ process_time12_1 =Ptime;]]></Code>
 				<Conveyor>
 					<Id>1722815712344</Id>
 					<Name><![CDATA[conveyor1_3]]></Name>
-					<X>205</X><Y>198</Y>
+					<X>200</X><Y>110</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -56812,7 +56812,7 @@ process_time12_1 =Ptime;]]></Code>
 				<Conveyor>
 					<Id>1722815891809</Id>
 					<Name><![CDATA[conveyor2_3]]></Name>
-					<X>250</X><Y>380</Y>
+					<X>245</X><Y>290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -56966,7 +56966,7 @@ process_time12_1 =Ptime;]]></Code>
 				<ConveyorSimpleStation>
 					<Id>1723303565336</Id>
 					<Name><![CDATA[station2_3]]></Name>
-					<X>220</X><Y>295</Y>
+					<X>245</X><Y>345</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -57852,7 +57852,7 @@ process_time12_1 =Ptime;]]></Code>
 						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
 					</Length>
 					<LineColor>-16777216</LineColor>
-					<FillColor>-10496</FillColor>
+					<FillColor>-16711681</FillColor>
 					<LineMaterial>null</LineMaterial>
 					<FillMaterial>null</FillMaterial>
 				</ConveyorSimpleStation>
@@ -57877,7 +57877,7 @@ process_time12_1 =Ptime;]]></Code>
 				<Conveyor>
 					<Id>1722815947863</Id>
 					<Name><![CDATA[conveyor4_1]]></Name>
-					<X>330</X><Y>380</Y>
+					<X>327</X><Y>252</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -58209,7 +58209,7 @@ process_time12_1 =Ptime;]]></Code>
 						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
 					</Length>
 					<LineColor>-16777216</LineColor>
-					<FillColor>-16711936</FillColor>
+					<FillColor>-10496</FillColor>
 					<LineMaterial>null</LineMaterial>
 					<FillMaterial>null</FillMaterial>
 				</ConveyorSimpleStation>
@@ -61804,7 +61804,7 @@ process_time12_1 =Ptime;]]></Code>
 				<Conveyor>
 					<Id>1722816203259</Id>
 					<Name><![CDATA[conveyor8_1]]></Name>
-					<X>491</X><Y>253</Y>
+					<X>495</X><Y>330</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -68313,7 +68313,7 @@ process_time12_1 =Ptime;]]></Code>
 						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
 					</Length>
 					<LineColor>-16777216</LineColor>
-					<FillColor>-256</FillColor>
+					<FillColor>-10496</FillColor>
 					<LineMaterial>null</LineMaterial>
 					<FillMaterial>null</FillMaterial>
 				</ConveyorSimpleStation>
